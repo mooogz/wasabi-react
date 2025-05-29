@@ -2,10 +2,10 @@ import React, { useRef, useEffect, useState } from 'react'
 
 
 const photos = [
-    { src: '/public/images/chicken-wings.jpg', alt: 'Salt & pepper wings'},
-    { src: '/public/images/tempura-udon.jpg', alt: 'Tempura udon soup'},
-    { src: '/public/images/steak_bg.jpg', alt: 'Hibachi steak'},
-    { src: '/public/images/cc-army.jpg', alt: 'CC & Army roll'}
+    { src: '/images/chicken-wings.jpg', alt: 'Salt & pepper wings'},
+    { src: '/images/tempura-udon.jpg', alt: 'Tempura udon soup'},
+    { src: '/images/steak_bg.jpg', alt: 'Hibachi steak'},
+    { src: '/images/cc-army.jpg', alt: 'CC & Army roll'}
 ];
 
 

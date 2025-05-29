@@ -1,0 +1,589 @@
+[
+    {
+    "category": "Specials",
+    "items": [
+        {
+            "id": 1,
+            "name": "Lunch Special",
+            "price": "2 rolls for $13 / 3 rolls for $18",
+            "description": "Choose from the following rolls:",
+            "time": "12pm - 3pm",
+            "icon": "☀️",
+            "eligibleRolls": [
+                "Army Roll",
+                "California Roll",
+                "C.C. Roll",
+                "Crunch Roll",
+                "Spicy Tuna Roll",
+                "Salmon Roll",
+                "Tuna Roll",
+                "White Tuna Roll",
+                "Yellowtail Roll",
+                "Vegetarian Roll"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "All-Day Special",
+            "price": "3 rolls for $38 / 5 rolls for $62",
+            "description": "Includes all menu rolls.",
+            "icon": "🍣",
+            "eligibleRolls": ""
+        }
+    ]
+
+    },
+    {
+    "category": "Nigiri & Sashimi",
+    "description": "2pc per order - nigiri (with rice) or sashimi (no rice)",
+    "items": [
+      {
+        "id": 1,
+        "name": "Albacore Tuna",
+        "description": "Seared.",
+        "price": 5.50
+      },
+      {
+        "id": 2,
+        "name": "Crab",
+        "price": 4.50
+      },
+      {
+        "id": 3,
+        "name": "Eel",
+        "price": 6.00
+      },
+      {
+        "id": 4,
+        "name": "Mackerel",
+        "price": 5.50
+      },
+      {
+        "id": 5,
+        "name": "Masago",
+        "description": "Fish roe",
+        "price": 5.50
+      },
+      { "id": 6,
+        "name": "Salmon",
+        "price": 6.25
+      },
+      { "id": 7,
+        "name": "Salmon Egg",
+        "price": 7.00
+      },
+      { "id": 8,
+        "name": "Scallop",
+        "price": 7.00
+      },
+      { "id": 9,
+        "name": "Shrimp",
+        "price": 5.00
+      },
+      { "id": 10,
+        "name": "Smoked Salmon",
+        "price": 6.25
+      },
+      {
+        "id": 11,
+        "name": "Spicy Scallop",
+        "price": 7.00
+      },
+      { "id": 12,
+        "name": "Tamago",
+        "price": 4.50
+      },
+      { "id": 13,
+        "name": "Tuna",
+        "price": 6.25
+      },
+      { "id": 14,
+        "name": "White Tuna",
+        "price": 6.00
+      },
+      { "id": 15,
+        "name": "Yellowtail",
+        "price": 6.25
+      }
+    ]
+  },
+  {
+    "category": "Sushi & Sashimi Meals",
+    "description": "Served with miso soup or house salad.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Sushi Meal",
+        "description": "8 pc chef's choice nigiri & your choice of California or tuna roll.",
+        "price": 25.00
+      },
+      {
+        "id": 2,
+        "name": "Sashimi Meal",
+        "description": "12 pc chef's choice sashimi & California roll, tuna roll, or sushi rice.",
+        "price": 28.00
+      },
+      {
+        "id": 3,
+        "name": "Sushi & Sashimi Combo",
+        "description": "10pc sashimi, 5 pc nigiri with seaweed salad and California or tuna roll.",
+        "price": 33.00
+      },
+      {
+        "id": 4,
+        "name": "Tekkadon",
+        "description": "8pc ahi tuna over sushi rice.",
+        "price": 21.00
+      },
+      {
+        "id": 5,
+        "name": "Sakedon",
+        "description": "8pc salmon over sushi rice.",
+        "price": 21.00
+      },
+      { "id": 6,
+        "name": "Chirashi",
+        "description": "10 pc of assorted sashimi over sushi or white rice.",
+        "price": 25.00
+      }
+    ]
+  },
+  {
+    "category": "Sushi Rolls",
+    "description": "Items marked with * contain no raw seafood",
+    "items": [
+      {
+        "id": 1,
+        "name": "Army",
+        "description": "Spicy tuna & avocado topped with eel sauce. 8pc.",
+        "price": 7.75
+      },
+      {
+        "id": 2,
+        "name": "Black Dragon*",
+        "description": "Crab, avocado, & cucumber topped with eel & eel sauce. 8pc.",
+        "price": 14.00
+      },
+      {
+        "id": 3,
+        "name": "Beauty",
+        "description": "Tempura shrimp, spicy tuna, and cucumber topped with tuna, salmon, wasabi mayo, and spicy mayo. 8pc.",
+        "price": 14.00
+      },
+      {
+        "id": 4,
+        "name": "Caliente",
+        "description": "Tuna, fried jalapeno, and avocado. 8pc.",
+        "price": 9.55
+      },
+      {
+        "id": 5,
+        "name": "California*",
+        "description": "Crab, avocado, and cucumber. 8pc.",
+        "price": 6.50
+      },
+      { "id": 6,
+        "name": "Carnivore*",
+        "description": "Tempura shrimp, cream cheese, and lettuce topped with seared filet mignon & jalapeno slices. 8pc.",
+        "price": 15.00
+      },
+      { "id": 7,
+        "name": "CC*",
+        "description": "Crab & crunch flakes topped with spicy mayo. 8pc.",
+        "price": 6.50
+      },
+      { "id": 8,
+        "name": "Crunch*",
+        "description": "Tempura shrimp & crunch flakes topped with spicy mayo. 8pc.",
+        "price": 7.00
+      },
+      { "id": 9,
+        "name": "Crunch Rainbow",
+        "description": "Crab mix & cucumber topped with tuna, eel, crab, crunch flakes, and eel sauce. 8pc.",
+        "price": 14.00
+      },
+      { "id": 10,
+        "name": "Double Shrimp*",
+        "description": "Tempura shrimp and crab topped with ebi shrimp, avocado, spicy mayo, and eel sauce. 8pc.",
+        "price": 14.00
+      },
+      {
+        "id": 11,
+        "name": "Eel*",
+        "description": "Eel, avocado, and cucumber topped with eel sauce. 8pc.",
+        "price": 8.50
+      },
+      { "id": 12,
+        "name": "Fay",
+        "description": "Spicy tuna, avocado, and cream cheese. 8pc.",
+        "price": 8.95
+      },
+      { "id": 13,
+        "name": "Fire Cracker",
+        "description": "Crab, cream cheese, and crunch flakes topped with spicy tuna, diced jalapeno, and apple mayo. 8pc.",
+        "price": 14.00
+      },
+      { "id": 14,
+        "name": "Flaming Dragon",
+        "description": "Tempura shrimp and cucumber topped with spicy tuna, avocado, tobiko, spicy mayo, and eel sauce. 8pc.",
+        "price": 14.50
+      },
+      { "id": 15,
+        "name": "Fujiyama*",
+        "description": "Deep fried. Tamago, shrimp, crab, cream cheese topped with spicy mayo and apple mayo.",
+        "price": 9.00
+      },
+      { "id": 16,
+        "name": "Grenade",
+        "description": "Deep fried. Spicy tuna, crab, eel, and jalapeno topped with eel sauce and spicy sauce.",
+        "price": 10.00
+      },
+      { "id": 17,
+        "name": "Great Cali",
+        "description": "Crab, ebi shrimp, cucumber, & avocado topped with masago. 8pc.",
+        "price": 8.00
+      },
+      { "id": 18,
+        "name": "Giant Spider*",
+        "description": "Soft shell crab, cream cheese, crab, ebi shrimp, and lettuce topped with spicy mayo & eel sauce. 10pc.",
+        "price": 15.50
+      },
+      { "id": 19,
+        "name": "Heaven",
+        "description": "Tempura shrimp, cream cheese, and crab topped with white tuna, yellowtail, apple mayo, & spicy mayo. 8pc.",
+        "price": 14.50
+      },
+      { "id": 20,
+        "name": "Kanisu*",
+        "description": "No rice. Ebi shrimp, crab, and avocado wrapped in cucumber and topped with apple mayo.",
+        "price": 7.50
+      },
+      { "id": 21,
+        "name": "Philly",
+        "description": "Smoked salmon, avocado, cream cheese. 8pc.",
+        "price": 8.95
+      },
+      { "id": 22,
+        "name": "Pharmacy",
+        "description": "Crab mix topped with ahi tuna and spicy mayo. 8pc.",
+        "price": 14.00
+      },
+      { "id": 23,
+        "name": "Pink Dragon",
+        "description": "Crab mix and crunch flakes topped with salmon, avocado, spicy mayo, and green onion. 8pc.",
+        "price": 14.00
+      },
+      { "id": 24,
+        "name": "Rainbow",
+        "description": "Crab, avocado, and cucumber topped with tuna, salmon, and yellowtail. 8pc.",
+        "price": 14.00
+      },
+      { "id": 25,
+        "name": "Spicy Tuna",
+        "description": "Spicy tuna. 8pc.",
+        "price": 7.50
+      },
+      { "id": 26,
+        "name": "Spider",
+        "description": "Soft shell crab and masago topped with eel sauce. Seaweed outside.",
+        "price": 10.50
+      },
+      { "id": 27,
+        "name": "Tiger*",
+        "description": "Tempura shrimp and fried jalapeno topped with crab, apple mayo, and eel sauce. 8pc.",
+        "price": 14.00
+      },
+      { "id": 28,
+        "name": "Vegetarian*",
+        "description": "Avocado, cucumber, carrot, lettuce, tomato, and bean sprouts. Seaweed outside.",
+        "price": 7.00
+      },
+      { "id": 29,
+        "name": "White Dragon",
+        "description": "Crab mix topped with yellowtail and white tuna with soy paper, no seaweed. 8pc.",
+        "price": 14.00
+      },
+      { "id": 30,
+        "name": "White Tuna, Tuna, Yellowtail, or Salmon",
+        "description": "Seaweed outside. 8pc.",
+        "price": 7.00
+      },
+      { "id": 31,
+        "name": "Yum Yum*",
+        "description": "Tempura shrimp and cream cheese topped with crab mix. 8pc.",
+        "price": 13.50
+      }
+    ]
+  },
+    {
+    "category": "Appetizers",
+    "items": [
+      {
+        "id": 1,
+        "name": "Ahi Poke Chips",
+        "description": "Corn tortilla chips topped with spicy tuna, avocado, eel sauce, and wasabi mayo.",
+        "price": 9.50
+      },
+      {
+        "id": 2,
+        "name": "Edamame",
+        "price": 5.50
+      },
+      {
+        "id": 3,
+        "name": "Chicken Wings",
+        "description": "5pc chicken wings seasoned with salt, pepper, and garlic. Soy lemon sauce on the side.",
+        "price": 7.00
+      },
+      {
+        "id": 4,
+        "name": "Potstickers (Gyoza)",
+        "description": "Fried or steamed. Pork & veggies inside.",
+        "price": 6.00
+      },
+      {
+        "id": 5,
+        "name": "Tako Yaki",
+        "description": "Chopped octopus wrapped in potato flour & deep fried. Topped with eel sauce, Japanese mayo, and bonito flakes.",
+        "price": 6.50
+      },
+      { "id": 6,
+        "name": "Vegetable Tempura",
+        "description": "8pc - zucchini, onion, mushroom, sweet potato, & broccoli",
+        "price": 7.50
+      },
+      { "id": 7,
+        "name": "Shrimp Tempura",
+        "description": "5pc",
+        "price": 8.50
+      },
+      { "id": 8,
+        "name": "Shrimp & Vegetable Tempura",
+        "description": "3pc shrimp, 4pc vegetable",
+        "price": 9.25
+      }
+    ]
+  },
+
+  {
+    "category": "Soup & Salads",
+    "items": [
+      {
+        "id": 1,
+        "name": "Crab Salad",
+        "description": "Cucumber spirals, tempura flakes, crabstick, spicy mayo, and ponzu sauce.",
+        "price": 1.95
+      },
+      {
+        "id": 2,
+        "name": "Seaweed Salad",
+        "description": "",
+        "price": 6.25
+      },
+      {
+        "id": 3,
+        "name": "House Salad",
+        "description": "Lettuce, cucumber, carrot, and tomato served with homemade ginger or ranch dressing.",
+        "price": 2.75
+      },
+      {
+        "id": 4,
+        "name": "Miso Soup",
+        "description": "Soybean broth with mushrooms, green onion, tofu, and seaweed.",
+        "price": 2.50
+      }
+    ]
+  },
+  {
+    "category": "Udon Soup",
+    "items": [
+      {
+        "id": 1,
+        "name": "Kake Udon",
+        "description": "Shredded imitation crab meat, fish cakes, seaweed, green onion.",
+        "price": 11.50
+      },
+      {
+        "id": 2,
+        "name": "Tempura Udon",
+        "description": "Tempura shrimp, shredded imitation crab meat, fish cake, seaweed, green onion, topped with tempura flakes.",
+        "price": 13.50
+      }
+    ]
+  },
+  {
+    "category": "Yaki Udon",
+    "description": "Stir fried udon noodles with zucchini, onion, mushroom, broccoli, bell pepper, and carrots",
+    "items": [
+      {
+        "id": 1,
+        "name": "Vegetable Yaki Udon",
+        "description": "Includes bean sprouts.",
+        "price": 11.50
+      },
+      {
+        "id": 2,
+        "name": "Chicken Yaki Udon",
+        "price": 13.50
+      },
+      {
+        "id": 3,
+        "name": "Shrimp Yaki Udon",
+        "price": 15.50
+      },
+      {
+        "id": 4,
+        "name": "Steak Yaki Udon",
+        "price": 15.50
+      }
+    ]
+  },
+  {
+    "category": "Poke Bowls",
+    "description": "Sushi rice or white rice, seaweed salad, avocado, lettuce, edamame, chips. Topped with spicy mayo and eel sauce.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Ahi Tuna Poke Bowl",
+        "price": 13.50
+      },
+      {
+        "id": 2,
+        "name": "Salmon Poke Bowl",
+        "price": 13.50
+      },
+      {
+        "id": 3,
+        "name": "Bulgogi Poke Bowl",
+        "price": 13.50
+      }
+    ]
+  },
+  {
+    "category": "Hibachi",
+    "description": "Served with fried rice, vegetables, and miso soup or house salad.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Vegetable",
+        "description": "Zucchini, onion, mushroom, broccoli, bell pepper, carrots, and bean sprouts.",
+        "price": 12.00
+      },
+      {
+        "id": 2,
+        "name": "Chicken",
+        "description": "Teriyaki or soy-style. Zucchini, onion, and bell pepper.",
+        "price": 14.95
+      },
+      {
+        "id": 3,
+        "name": "Shrimp",
+        "description": "Zucchini, onion, and broccoli.",
+        "price": 17.50
+      },
+      {
+        "id": 4,
+        "name": "Salmon",
+        "description": "Teriyaki salmon with zucchini, onion, and broccoli.",
+        "price": 17.50
+      },
+      {
+        "id": 5,
+        "name": "Ribeye Steak",
+        "description": "Zucchini, onion, and mushroom.",
+        "price": 17.50
+      },
+      { "id": 6,
+        "name": "Filet Mignon",
+        "description": "Zucchini, onion, and mushroom.",
+        "price": 19.95
+      },
+      { "id": 7,
+        "name": "Steak & Chicken",
+        "description": "Ribeye steak and teriyaki chicken with zucchini, onion, bell pepper, and mushroom.",
+        "price": 19.50
+      },
+      { "id": 8,
+        "name": "Chicken & Shrimp",
+        "description": "Teriyaki chicken and shrimp with zucchini, onion, bell pepper, and broccoli.",
+        "price": 19.50
+      },
+      { "id": 9,
+        "name": "Steak & Shrimp",
+        "description": "Ribeye steak and shrimp with zucchini, onion, mushroom, and broccoli.",
+        "price": 20.50
+      },
+      { "id": 10,
+        "name": "Steak, Shrimp, & Chicken",
+        "description": "Ribeye steak, shrimp, and teriyaki chicken with zucchini, onion, mushroom, broccoli, and bell pepper.",
+        "price": 27.50
+      }
+    ]
+  },
+  {
+    "category": "Hibachi Sides",
+    "items": [
+      {
+        "id": 1,
+        "name": "Teriyaki Chicken",
+        "price": 8.00
+      },
+      {
+        "id": 2,
+        "name": "Shrimp",
+        "price": 9.50
+      },
+      {
+        "id": 3,
+        "name": "Ribeye Steak",
+        "price": 9.50
+      }
+    ]
+  },
+  {
+    "category": "Bento Boxes",
+    "description": "2pc fried pork gyoza, fried rice, and 4pc California roll.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Teriyaki Chicken",
+        "price": 13.50
+      },
+      {
+        "id": 2,
+        "name": "Shrimp",
+        "price": 15.00
+      },
+      {
+        "id": 3,
+        "name": "Ribeye Steak",
+        "price": 15.00
+      }
+    ]
+  },
+  {
+    "category": "Desserts",
+    "items": [
+      {
+        "id": 1,
+        "name": "Fried Ice Cream",
+        "description": "Deep fried vanilla ice cream topped with chocolate syrup and whipped cream. Contains nuts.",
+        "price": 6.50
+      },
+      {
+        "id": 2,
+        "name": "Mochi Ice Cream",
+        "description": "2pc mochi - green tea, red bean, strawberry, mango, or black sesame.",
+        "price": 5.50
+      },
+      {
+        "id": 3,
+        "name": "Fried Cheesecake",
+        "price": 6.50
+      }
+    ]
+  }
+
+
+
+]

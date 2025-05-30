@@ -28,7 +28,12 @@ const MobileAccordion = ({ menu }) => {
                     <div key={item.id} className="mb-4">
                       <h4 className="font-bold">{item.name}</h4>
                       <p>{item.description}</p>
-                      <p className="font-semibold">{item.price}</p>
+                      <p className="font-semibold">
+                        {typeof item.price === 'number'
+                        ? `$${item.price.toFixed(2)}`
+                        : item.price
+                        }
+                      </p>
                       </div>
                   ))}
                   </div>
@@ -75,7 +80,12 @@ const DesktopTabs = ({ menu }) => {
   <li key={item.id} className="border-b border-gray-300 pb-4 mb-4">
     <div className="flex justify-between items-center">
       <h3 className="font-semibold text-lg">{item.name}</h3>
-      <span className="font-semibold text-green-700">{item.price}</span>
+      <span className="font-semibold text-green-700">
+        {typeof item.price === 'number'
+        ? `$${item.price.toFixed(2)}`
+        : item.price
+        }
+      </span>
     </div>
     <p className="text-gray-600 text-sm mb-2">{item.description}</p>
 

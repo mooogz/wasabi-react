@@ -29,13 +29,18 @@ const MobileAccordion = ({ menu }) => {
                       <h4 className="font-bold">{item.name}</h4>
                       <p>{item.description}</p>
                       <p className="font-semibold">
-                        {typeof item.price === 'number'
-                        ? `$${item.price.toFixed(2)}`
-                        : item.price
-                        }
+                        {typeof item.price === 'number' ? `$${item.price.toFixed(2)}` : item.price}
                       </p>
-                      </div>
-                  ))}
+
+                      {item.eligibleRolls && Array.isArray(item.eligibleRolls) && (
+                      <ul className="list-disc list-inside text-gray-700 mt-2 max-w-md grid grid-cols-2 gap-x-4">
+                      {item.eligibleRolls.map((roll, i) => (
+                        <li key={i}>{roll}</li>
+                        ))}
+                      </ul>
+                      )}
+                    </div>
+                    ))}
                   </div>
               )}
               </div>
